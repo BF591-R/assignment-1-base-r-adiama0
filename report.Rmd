@@ -183,7 +183,7 @@ the value `NA`.
 # NB: simulate_gene_expression_s_missing is defined in main.R
 gene_exp <- simulate_gene_expression_w_missing(num_samples=30, num_genes=10, missing_frac=0.1)
 
-summary_df <- summarize_matrix(gene_exp)
+summary_df <- summarize_matrix_na(gene_exp)
 kableExtra::kable(summary_df)
 ```
 

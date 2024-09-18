@@ -121,6 +121,9 @@ describe("summarize_matrix()", {
 
 
 #  these tests are bonus - if you want to try the challenge, uncomment!
+
+# m <- matrix(1:9, nrow=3, byrow=T)
+#   m[2,1] <- NA
 # 
 # describe("Bonus tests! Make your code work when there are NAs!", {
 #   m <- matrix(1:9, nrow=3, byrow=T)
